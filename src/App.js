@@ -5,18 +5,48 @@ const rhymeWithGypsy = [
   'whiskey',
   'tipsy',
   'frisky',
-  'risque',
   'crispy',
-  // ... (add more words here)
+  'grisly',
+  'wispy',
+  'flimsy',
+  'spicy',
+  'pricy',
+  'hasty',
+  'tasty',
+  'zesty',
+  'trippy',
+  'hippy',
+  'nifty',
+  'thrifty',
+  'shifty',
+  'misty',
+  'twisty',
+  'grippy'
 ];
 
 const rhymeWithMambo = [
-  'rambo',
-  'jumbo',
   'combo',
-  'limbo',
-  // ... (add more words here)
+  'gumbo',
+  'jumbo',
+  'slumbo',
+  'dumbo',
+  'plumbo',
+  'stumbo',
+  'rambo',
+  'zambo',
+  'bambo',
+  'tambo',
+  'sambo',
+  'wambo',
+  'flambo',
+  'jambo',
+  'cambo',
+  'hambo',
+  'yambo',
+  'pambo',
+  'glambo'
 ];
+
 
 function getRandomRhyme(words) {
   return words[Math.floor(Math.random() * words.length)];
